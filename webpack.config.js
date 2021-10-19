@@ -6,7 +6,7 @@ module.exports = (env, argv) => ({
   mode: argv.mode || 'development',
   entry: path.join(__dirname, 'src', 'index.jsx'),
   output: {
-    filename: "[name].[contenthash].js",
+    filename: "[name].[contenthash].js  ",
     path: path.resolve(__dirname, 'dist'),
     clean: true
   },
